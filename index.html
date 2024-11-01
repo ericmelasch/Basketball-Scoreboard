@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basketball Counter</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <div>
+        <h1 class="headline">HOME</h1>
+        <h2 id="count-home" class="color-number">0</h2>
+        <div class="btn">
+            <button onclick="btnHome1()" class="btnFont">+1</button>
+            <button onclick="btnHome2()" class="btnFont">+2</button>
+            <button onclick="btnHome3()" class="btnFont">+3</button>
+        </div>
+
+    </div>
+    <div>
+        <h1 class="headline">GUEST</h1>
+        <h2 id="count-guest" class="color-number">0</h2>
+        <div class="btn">
+            <button onclick="btnGuest1()" class="btnFont">+1</button>
+            <button onclick="btnGuest2()" class="btnFont">+2</button>
+            <button onclick="btnGuest3()" class="btnFont">+3</button>
+        </div>
+
+    </div>
+  </div>
+  <button onclick="resetcounter()" id="reset">NEW GAME</button>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+@font-face {
+    src: url("font/CursedTimerUlil-Aznm.ttf");
+    font-family: 'CursedTimer';
+
+}
+
+body {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #080708;
+}
+
+h1 {
+    font-size: 5.5em;
+}
+
+h2 {
+    font-size: 7.5em;
+    background-color: #080708;
+    width: 250px;
+    margin: 50px auto;
+    padding-top: 18px;
+    color: #DF2935;
+}
+
+button {
+    font-size: 3.5em;
+    padding: 5px 10px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    margin: 100px 200px 50px 200px;
+    padding: 25px 0 100px 0;
+    border: 5px solid #080708;
+    border-radius: 20px;
+    background-color: #ffe08a;
+
+}
+
+.btnFont, h2 {
+    font-family: 'CursedTimer';
+    border: 1px solid #080708;
+    border-radius: 20px;
+}
+
